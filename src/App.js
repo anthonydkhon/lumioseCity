@@ -1,23 +1,31 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Switch, Route, useLocation } from 'react-router-dom';
 import './App.css';
+import Navibar from './components/Navbar/navbar';
+import TcgSets from './components/TcgSets';
+import Home from './components/Home';
+import PokemonCards from './components/pokemonCards'
+import SingleCard from './components/singleCard/singleCard';
+
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Navibar />
       </header>
+      
+      <Switch>
+      <Route path="/PokemonSets" exact> 
+        <TcgSets />
+      </Route>
+      <Route path="/PokemonSets/:id" children={<PokemonCards />} />
+      <Route path="/card/:id" children={<SingleCard />} />
+      <Route path="/">
+      <Home />
+      </Route>
+      </Switch>
     </div>
   );
 }

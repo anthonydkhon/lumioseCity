@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+# Lumiose City
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## The Main Goal
+Lumiose City is aimed on being the future social hub for Pokemon fans to be able to come and meet other fans from around the world. With goals of an interactive UI navigation and events, Lumiose City will be an immersive experience and will become a daily check in for Pokemon fans every where.
 
-## Available Scripts
+## TCG
+The TCG section will be a place where users will be able to check prices against TCGPlayer using a private PokemonTCG REST API. Additional features will include:
+1. Buying, selling, and trading through private communications with other users on their own discresion. 
+2. Create a collection of "Looking for" cards that other users will be able to browse.
+3. "Showcase" will be an area where users will be able to upload their collections to show off to other users.
+4. "Deck Building" - Users who are collectors and players as well will be able to pre-construct decks and get insights and ideas from other users through comments. 
 
-In the project directory, you can run:
+## Pokemon Video Game
+The Pokemon Video Game section will be a place where users will be able to create post similar to "LFG" (Look for group) where they will be able to connect and communicate with other users interested in the video game franchise. Users will be able to look for other users looking to trade Pokemon or looking for friends just to connect with in-game. Future features will include:
+1. Tournaments - Users will be able to setup tournaments for Pokemon battles with a bracket system in place.
+2. LFG - Users will find other users looking to do specific raids.
+3. LFT - Users will be able to filter through listings of Pokemon available for trade by other users through a filtered criteria search.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Pokemon GO!
+The Pokemon Go section will provide users a space to be able to talk about anything related to the Pokemon GO mobile game. Users will be able to create local IRL groups where they can socialize and get together to do IRL raids. 
